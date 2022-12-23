@@ -1,12 +1,12 @@
 const contactForm = document.querySelector('.form-action');
-const error = document.querySelector('small');
-const formInput = document.querySelectorAll('.form-data');
-const email = document.querySelector('#email');
+const error = document.querySelector('#small');
+const formInput = document.querySelectorAll('#form-data');
+const email = document.querySelector('email');
 
-const form = {
+const f = {
   fullName: formInput[0].value,
   email: formInput[1].value,
-  comment: formInput[2].value,
+  comment: "formInput[2].value",
 };
 
 formInput.forEach((input) => {
